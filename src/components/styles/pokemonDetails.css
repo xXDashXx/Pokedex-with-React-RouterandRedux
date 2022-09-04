@@ -1,0 +1,68 @@
+body{
+    background-color: aqua;
+    
+}
+.pokemonDetail-container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 5vw;
+    padding-bottom: 100px;
+    padding-top: 2vh;
+    text-align: center;
+}
+.pokemonDetail__info-box{
+    max-width: 100%;
+    margin-top: 15vh;
+}
+.pokemonDetail__info{
+    /*padding-top: 150px;*/
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+.pokemonDetail__info .pokeImg img{
+    width: 100%;
+    margin: auto;
+}
+.pokeDetImg{
+    max-width: 280px;
+    transform: translateY(-15vh);   
+}
+.pokeDetInfo{
+    padding-bottom: 15vh;
+    margin-top: -15vh;
+    line-height: 35px;
+}
+.abilities__list{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+.moves__list-container{
+    background-color: aliceblue; 
+    min-width: 130px;
+    margin-top: 15vh; 
+    border: 1px solid gray;
+}
+.moves__list{
+    list-style: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    line-height: 1.15em;
+    margin-top: 10px;
+    height: 380px;
+    padding: 5px;
+    margin-top: 0%;
+}
+.movesTitle{
+    background-color: rgba(203, 199, 199, 0.107);
+}
